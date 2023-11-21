@@ -61,3 +61,37 @@ const isBelow25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
 const isValid2 = isSum50 && isTwoOdd && isBelow25 && isUnique;
 console.log("Change isOver25 : " + isValid2)
 
+// Part two
+
+const distance = 1500
+//Fuel needed 
+const fuel_speed_55 = distance / 30
+const fuel_speed_60 = distance / 28
+const fuel_speed_75 = distance / 23
+
+//Cost of gas
+const gas_55 = fuel_speed_55 * 3
+const gas_60 = fuel_speed_60 * 3
+const gas_75 = fuel_speed_75 * 3
+
+// Duration
+
+const time_55 = distance / 55
+const time_60 = distance / 60
+const time_75 = distance / 75
+console.log(`
+    At 55 mph:\n\
+    Fuel needed: ${fuel_speed_55}\n\
+    Cost: ${gas_55}\n\
+    Time: ${time_55}\n\
+
+    At 60 mph:\n\
+    Fuel needed: ${fuel_speed_60}\n\
+    Cost: ${gas_60}\n\
+    Time: ${time_60}\n\
+
+    At 60 mph:\n\
+    Fuel needed: ${fuel_speed_75}\n\
+    Cost: ${gas_75}\n\
+    Time: ${time_75}\n\
+`)
