@@ -1,0 +1,23 @@
+Reflection
+
+1.What could you have done differently during the planning stages of your project to make the execution easier?
+
+    I would give more time to understand the assignment requirements first, plan and design the solution. 
+    I wasted some times in the beginning because I started creating some function that extract some data from the data example.
+    Those functions were not that helpful in the overall problem solution. 
+
+2.Were there any requirements that were difficult to implement? What do you think would make them easier to implement in future projects?
+
+    I think the getLearnerData function wasn't easy to implement without breaking it down, so creating that separate data processing was very helpful. 
+    It was challenging for me to return an array of objects and each object to contain a certain data extracted from some other arrays pr objects. 
+    Score calculation was also a little challengiing especially with the points deduction.
+
+3.What would you add to, or change about your application if given more time?
+
+    I would update the main function to make it more reuseable in case we have more data.
+
+4.Use this space to make notes for your future self about anything that you think is important to remember about this process, or that may aid you when attempting something similar again:
+
+    First spend more time reading and understanding requirements in regard to the data given. 
+    Plan and design the solution before jumping writing code for function you just thought are needed to achieve a certain point that would solve the problem.  
+    Think about the overall solution design and be mindful of solution approach limits.
